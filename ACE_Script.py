@@ -109,14 +109,16 @@ for row in fReader:
     pOUT = "".join(find_outcome_tags(p.stdout.replace("\r\n", "").replace(" ", "").replace("\n", "").replace("\t", "")))
     sys.stdout.flush()
 
-    if outputDebugStats == 1:
+    if pOUT == row[6]:
+        print(f"{bcolors.OKGREEN}PASSED{bcolors.ENDC}")
         print("EXPECTED:" + row[6])
         print("GOT     :" + pOUT)
-
-    if pOUT == row[6]:
-        print(f"{bcolors.OKGREEN}PASSED{bcolors.ENDC}\n")
+        print()
     else:
-        print(f"{bcolors.FAIL}FAILED{bcolors.ENDC}\n")
+        print(f"{bcolors.FAIL}FAILED{bcolors.ENDC}")
+        print("EXPECTED:" + row[6])
+        print("GOT     :" + pOUT)
+        print()
 
     count += 1
 
