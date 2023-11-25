@@ -98,13 +98,13 @@ for row in fReader:
     a3TXT.close()
 
     # Command to run compilor for a new input text file
-    command = f'gcc -std=c99 {fileName} AutoGraderOutput.c -o Assignment3Validation.exe'
+    command = f'gcc -std=c99 {fileName} ObfuscatedAutoGraderOutput.c -o Assignment3Validation.out'
     run(command, shell=True)
 
     sys.stdout.flush()
 
     # Command to run C program and redirect the output into a json file so we can process it
-    command = 'Assignment3Validation.exe'
+    command = './Assignment3Validation.out'
     p = run(command, shell=True, bufsize=1, stdout=PIPE, text=True)
     pOUT = "".join(find_outcome_tags(p.stdout.replace("\r\n", "").replace(" ", "").replace("\n", "").replace("\t", "")))
     sys.stdout.flush()
@@ -118,8 +118,6 @@ for row in fReader:
     else:
         print(f"{bcolors.FAIL}FAILED{bcolors.ENDC}\n")
 
-count += 1
+    count += 1
 
 f.close()
-
-print(f"{bcolors.OKBLUE}To View Your Results, Enter the command: cat results.txt{bcolors.ENDC}")
