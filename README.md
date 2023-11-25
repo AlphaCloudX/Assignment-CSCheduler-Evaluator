@@ -2,6 +2,8 @@
 
 ## Overview
 
+Need to fix one of the outcomes for #5
+
 This program, named ACE (Assignment CSCheduler Evaluator), has undergone several improvements. The changes include optimizing the test case file format and modifying the program output to be more flexible.
 
 The ObfuscatedAutoGraderOutput.c file has been obfuscated to prevent any issues with academic dishonesty and code sharing policies since there is a fair amount of overlap
