@@ -1,6 +1,7 @@
 rm 'courses.txt'
 rm 'data.txt'
 rm 'givenA3.h'
+rm 'OutputAssignment3.c'
 echo 'What is your methods file called(including the .c)'
 read filename
 wget 'https://raw.githubusercontent.com/AlphaCloudX/Assignment-CSCheduler-Evaluator/main/OutputAssignment3.c'
