@@ -104,10 +104,10 @@ int main() {
     char cFile[MAX_STR] = "courses.txt";
     char dFile[MAX_STR] = "data.txt";
 
-
+    printf("There may be output here from your method, disregard\n");
     o = readCourse(cFile, courseName, courseID);
+    printf("\n\n");
 
-    printf("$OUTCOMETAG$");
     printf("\n\n==============================TASK 1 VALIDATION==============================\n");
     printf("GOTTEN   RETURN VALUE FROM readCourse: %d\n", o);
     printf("EXPECTED RETURN VALUE FROM readCourse: 1\n");
@@ -134,13 +134,13 @@ int main() {
         printf("\n\n");
     }
 
-    printf("$OUTCOMETAG$");
 
 
+    printf("There may be output here from your method, disregard\n");
     o = readProfs(dFile, courseID, profName, coursesTaught);
+    printf("\n\n");
 
-
-    printf("$OUTCOMETAG$");
+    
     printf("\n\n==============================TASK 2 VALIDATION==============================\n");
     printf("GOTTEN   RETURN VALUE FROM readCourse: %d\n", o);
     printf("EXPECTED RETURN VALUE FROM readCourse: 1\n");
@@ -169,16 +169,17 @@ int main() {
         printf("\n\n");
     }
 
-    printf("$OUTCOMETAG$");
+    
 
 
-    printf("$OUTCOMETAG$");
+    
     printf("\n\n==============================TASK 3 VALIDATION==============================\n");
-    printf("$OUTCOMETAG$");
 
+
+    printf("There may be output here from your method, disregard\n");
     o = nCourses(inputedIntegerN, profName, coursesTaught);
-
-    printf("$OUTCOMETAG$");
+    printf("\n\n");
+    
     printf("INPUT VALUE: [%d]\n", inputedIntegerN);
     printf("EXPECTED: [%d]\n", expectedReturnValueN);
     printf("     Got: [%d]\n", o);
@@ -188,24 +189,28 @@ int main() {
         printf("FAILED\n\n");
     }
 
-    printf("$OUTCOMETAG$");
+    
 
 
-    printf("$OUTCOMETAG$");
+    
     printf("\n\n==============================TASK 4 and 5 VALIDATION==============================\n");
-    printf("$OUTCOMETAG$");
+    
 
     for (int i = 0; i < NUMBER_COURSES; ++i) {
-        o = getCourseName(courseIDs[i], cNameFound, courseName, courseID);
 
-        printf("$OUTCOMETAG$");
+        printf("There may be output here from your method, disregard\n");
+        o = getCourseName(courseIDs[i], cNameFound, courseName, courseID);
+        printf("\n\n");
+        
         printf("INPUT VALUE: [%d]\n", courseIDs[i]);
         printf("EXPECTED: [%s]\n", coursesToCheck[i]);
         printf("     GOT: [%s]\n\n", cNameFound);
-        printf("$OUTCOMETAG$");
 
+
+        printf("There may be output here from your method, disregard\n");
         o = getCourseNum(coursesToCheck[i], &returnValueForThree, courseName, courseID);
-        printf("$OUTCOMETAG$");
+        printf("\n\n");
+
         printf("INPUT VALUE: [%s]\n", coursesToCheck[i]);
         printf("EXPECTED: [%d]\n", courseIDs[i]);
         printf("     GOT: [%d]\n", returnValueForThree);
@@ -216,18 +221,20 @@ int main() {
             printf("FAILED\n\n");
         }
 
-        printf("$OUTCOMETAG$");
+        
 
     }
 
-    printf("$OUTCOMETAG$");
+    
     printf("\n\n==============================TASK 6 VALIDATION==============================\n");
-    printf("$OUTCOMETAG$");
+    
 
     for (int i = 0; i < NUMBER_COURSES; ++i) {
+        printf("There may be output here from your method, disregard\n");
         o = profsTeachingCourse(courseIDs[i], profName, coursesTaught);
+        printf("\n\n");
 
-        printf("$OUTCOMETAG$");
+        
         printf("INPUT VALUE: [%d]\n", courseIDs[i]);
         printf("EXPECTED: [%d]\n", task6Validation[i]);
         printf("     GOT: [%d]\n", o);
@@ -237,22 +244,22 @@ int main() {
         } else {
             printf("FAILED\n\n");
         }
-        printf("$OUTCOMETAG$");
+        
 
 
     }
 
 
-    printf("$OUTCOMETAG$");
+    
     printf("\n\n==============================TASK 7 VALIDATION==============================\n");
-    printf("$OUTCOMETAG$");
 
+    printf("There may be output here from your method, disregard\n");
     seven = avgNumCourses(coursesTaught);
-
-    printf("$OUTCOMETAG$");
+    printf("\n\n");
+    
     printf("EXPECTED: [%.2f]\n", avg);
     printf("     GOT: [%.2f]\n", seven);
-    printf("$OUTCOMETAG$");
+    
 
 
     return 0;
