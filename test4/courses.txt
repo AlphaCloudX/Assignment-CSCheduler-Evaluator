@@ -1,0 +1,30 @@
+Cyber-Physical Systems
+Big Data Analytics
+Mobile App Security
+Digital Forensics
+Bioinformatics
+Social Media Analytics
+Information Retrieval
+Embedded Systems
+Computer Vision
+Natural Language Processing
+Blockchain Applications
+Human-Robot Interaction
+Bio-inspired Computing
+Cloud Security
+Autonomous Vehicles
+2150
+2500
+1950
+3200
+2750
+3650
+4400
+3850
+3000
+4300
+4900
+3500
+4200
+4650
+5100
