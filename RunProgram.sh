@@ -5,7 +5,7 @@ wget 'https://raw.githubusercontent.com/AlphaCloudX/Assignment-CSCheduler-Evalua
 wget 'https://raw.githubusercontent.com/AlphaCloudX/Assignment-CSCheduler-Evaluator/main/test1/data.txt'
 wget 'https://raw.githubusercontent.com/AlphaCloudX/Assignment-CSCheduler-Evaluator/main/test1/givenA3.h'
 clear
-gcc '-Walls -std=c99 $filename OutputAssignment3.c -o ASSIGNMENT3TESTCASE.out'
+gcc -Walls -std=c99 $filename OutputAssignment3.c -o ASSIGNMENT3TESTCASE.out
 ./ASSIGNMENT3TESTCASE.out
 echo 'Press Enter To Continue'
 rm 'ASSIGNMENT3TESTCASE.out'
@@ -17,7 +17,7 @@ wget 'https://raw.githubusercontent.com/AlphaCloudX/Assignment-CSCheduler-Evalua
 wget 'https://raw.githubusercontent.com/AlphaCloudX/Assignment-CSCheduler-Evaluator/main/test2/data.txt'
 wget 'https://raw.githubusercontent.com/AlphaCloudX/Assignment-CSCheduler-Evaluator/main/test2/givenA3.h'
 clear
-gcc '-Walls -std=c99 $filename OutputAssignment3.c -o ASSIGNMENT3TESTCASE.out'
+gcc -Walls -std=c99 $filename OutputAssignment3.c -o ASSIGNMENT3TESTCASE.out
 ./ASSIGNMENT3TESTCASE.out
 echo 'Press Enter To Continue'
 rm 'ASSIGNMENT3TESTCASE.out'
@@ -29,7 +29,7 @@ wget 'https://raw.githubusercontent.com/AlphaCloudX/Assignment-CSCheduler-Evalua
 wget 'https://raw.githubusercontent.com/AlphaCloudX/Assignment-CSCheduler-Evaluator/main/test3/data.txt'
 wget 'https://raw.githubusercontent.com/AlphaCloudX/Assignment-CSCheduler-Evaluator/main/test3/givenA3.h'
 clear
-gcc '-Walls -std=c99 $filename OutputAssignment3.c -o ASSIGNMENT3TESTCASE.out'
+gcc -Walls -std=c99 $filename OutputAssignment3.c -o ASSIGNMENT3TESTCASE.out
 ./ASSIGNMENT3TESTCASE.out
 echo 'Press Enter To Continue'
 rm 'ASSIGNMENT3TESTCASE.out'
@@ -41,7 +41,7 @@ wget 'https://raw.githubusercontent.com/AlphaCloudX/Assignment-CSCheduler-Evalua
 wget 'https://raw.githubusercontent.com/AlphaCloudX/Assignment-CSCheduler-Evaluator/main/test4/data.txt'
 wget 'https://raw.githubusercontent.com/AlphaCloudX/Assignment-CSCheduler-Evaluator/main/test4/givenA3.h'
 clear
-gcc '-Walls -std=c99 $filename OutputAssignment3.c -o ASSIGNMENT3TESTCASE.out'
+gcc -Walls -std=c99 $filename OutputAssignment3.c -o ASSIGNMENT3TESTCASE.out
 ./ASSIGNMENT3TESTCASE.out
 echo 'Press Enter To Continue'
 rm 'ASSIGNMENT3TESTCASE.out'
@@ -53,7 +53,7 @@ wget 'https://raw.githubusercontent.com/AlphaCloudX/Assignment-CSCheduler-Evalua
 wget 'https://raw.githubusercontent.com/AlphaCloudX/Assignment-CSCheduler-Evaluator/main/test5/data.txt'
 wget 'https://raw.githubusercontent.com/AlphaCloudX/Assignment-CSCheduler-Evaluator/main/test5/givenA3.h'
 clear
-gcc '-Walls -std=c99 $filename OutputAssignment3.c -o ASSIGNMENT3TESTCASE.out'
+gcc -Walls -std=c99 $filename OutputAssignment3.c -o ASSIGNMENT3TESTCASE.out
 ./ASSIGNMENT3TESTCASE.out
 echo 'Press Enter To Continue'
 rm 'ASSIGNMENT3TESTCASE.out'
@@ -65,7 +65,7 @@ wget 'https://raw.githubusercontent.com/AlphaCloudX/Assignment-CSCheduler-Evalua
 wget 'https://raw.githubusercontent.com/AlphaCloudX/Assignment-CSCheduler-Evaluator/main/test6/data.txt'
 wget 'https://raw.githubusercontent.com/AlphaCloudX/Assignment-CSCheduler-Evaluator/main/test6/givenA3.h'
 clear
-gcc '-Walls -std=c99 $filename OutputAssignment3.c -o ASSIGNMENT3TESTCASE.out'
+gcc -Walls -std=c99 $filename OutputAssignment3.c -o ASSIGNMENT3TESTCASE.out
 ./ASSIGNMENT3TESTCASE.out
 echo 'Press Enter To Continue'
 rm 'ASSIGNMENT3TESTCASE.out'
@@ -77,7 +77,7 @@ wget 'https://raw.githubusercontent.com/AlphaCloudX/Assignment-CSCheduler-Evalua
 wget 'https://raw.githubusercontent.com/AlphaCloudX/Assignment-CSCheduler-Evaluator/main/test7/data.txt'
 wget 'https://raw.githubusercontent.com/AlphaCloudX/Assignment-CSCheduler-Evaluator/main/test7/givenA3.h'
 clear
-gcc '-Walls -std=c99 $filename OutputAssignment3.c -o ASSIGNMENT3TESTCASE.out'
+gcc -Walls -std=c99 $filename OutputAssignment3.c -o ASSIGNMENT3TESTCASE.out
 ./ASSIGNMENT3TESTCASE.out
 echo 'Press Enter To Continue'
 rm 'ASSIGNMENT3TESTCASE.out'
