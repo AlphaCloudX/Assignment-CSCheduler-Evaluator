@@ -1,3 +1,4 @@
+#pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wunused-variable"
 
 #include "givenA3.h"
