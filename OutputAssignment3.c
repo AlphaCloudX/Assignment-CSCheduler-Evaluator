@@ -1,3 +1,5 @@
+#pragma GCC diagnostic ignored "-Wunused-variable"
+
 #include "givenA3.h"
 #include <ctype.h>
 #include <string.h>
